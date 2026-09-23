@@ -58,3 +58,26 @@ body {
 .btn:hover {
     background-color: #f59e0b;
 }
+.services {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    width: 260px;
+    padding: 24px;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+}
+
+.card p {
+    line-height: 1.6;
+}

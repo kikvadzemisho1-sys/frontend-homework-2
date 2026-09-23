@@ -100,3 +100,34 @@ body {
 .footer a:hover {
     text-decoration: underline;
 }
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .hero {
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero .btn {
+        margin: 5px;
+    }
+
+    .card {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 310px;
+    }
+}
